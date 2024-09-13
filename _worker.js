@@ -7,11 +7,10 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '22ffaf28-a582-4da9-b4aa-eace24b8eec4';
+let userID = '47a768f1-50f9-493c-9871-0aff465ce1aa';
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
-const proxyIPs= ['bpb.yousef.isegaro.com'];
-
+const proxyIPs = ['bestproxy.onecf.eu.org','workers.cloudflare.cyou','cdn-all.xn--b6gac.eu.org','cdn.xn--b6gac.eu.org']; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
 
